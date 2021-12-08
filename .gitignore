@@ -1,0 +1,8 @@
+data/*
+train_model_d512_b512/
+*/__pycache__/
+wandb/
+*.png
+*.csv
+.ipynb_checkpoints/
+run/.ipynb_checkpoints/
