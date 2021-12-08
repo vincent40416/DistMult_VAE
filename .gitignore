@@ -6,3 +6,4 @@ wandb/
 *.csv
 .ipynb_checkpoints/
 run/.ipynb_checkpoints/
+src/.ipynb_checkpoints/
