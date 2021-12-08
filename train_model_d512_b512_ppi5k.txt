@@ -1,0 +1,1561 @@
+WARNING:tensorflow:From ./src/testers.py:1069: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From ./src/models.py:41: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From ./src/models.py:42: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From ./src/models.py:44: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From ./src/models.py:54: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From ./src/models.py:2100: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From ./src/models.py:2143: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From ./src/models.py:2066: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+WARNING:tensorflow:From ./src/models.py:2068: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From ./src/models.py:2072: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+WARNING:tensorflow:From ./src/models.py:183: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /storage/ssd3/wchao/anaconda3/envs/ukge/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From ./src/models.py:192: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From ./src/trainer.py:621: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+Trained models will be stored in:  train_model_d512_b512/ppi5k/DistMult_VAE_1001
+file_psl: ./data/ppi5k/softlogic.tsv
+Read train.tsv from ./data/ppi5k
+Now using model:  ModelList.DistMult_VAE
+define main loss
+Number of batches per epoch: 451
+process: 50 / 451. Epoch 1
+process: 100 / 451. Epoch 1
+process: 150 / 451. Epoch 1
+process: 200 / 451. Epoch 1
+process: 250 / 451. Epoch 1
+process: 300 / 451. Epoch 1
+process: 350 / 451. Epoch 1
+process: 400 / 451. Epoch 1
+process: 450 / 451. Epoch 1
+process: 451 / 451. Epoch 1
+Loss of epoch 1 = 325.80127494456764
+process: 50 / 451. Epoch 2
+process: 100 / 451. Epoch 2
+process: 150 / 451. Epoch 2
+process: 200 / 451. Epoch 2
+process: 250 / 451. Epoch 2
+process: 300 / 451. Epoch 2
+process: 350 / 451. Epoch 2
+process: 400 / 451. Epoch 2
+process: 450 / 451. Epoch 2
+process: 451 / 451. Epoch 2
+Loss of epoch 2 = 88.17119941796008
+process: 50 / 451. Epoch 3
+process: 100 / 451. Epoch 3
+process: 150 / 451. Epoch 3
+process: 200 / 451. Epoch 3
+process: 250 / 451. Epoch 3
+process: 300 / 451. Epoch 3
+process: 350 / 451. Epoch 3
+process: 400 / 451. Epoch 3
+process: 450 / 451. Epoch 3
+process: 451 / 451. Epoch 3
+Loss of epoch 3 = 81.86966463414635
+process: 50 / 451. Epoch 4
+process: 100 / 451. Epoch 4
+process: 150 / 451. Epoch 4
+process: 200 / 451. Epoch 4
+process: 250 / 451. Epoch 4
+process: 300 / 451. Epoch 4
+process: 350 / 451. Epoch 4
+process: 400 / 451. Epoch 4
+process: 450 / 451. Epoch 4
+process: 451 / 451. Epoch 4
+Loss of epoch 4 = 77.05722526330376
+process: 50 / 451. Epoch 5
+process: 100 / 451. Epoch 5
+process: 150 / 451. Epoch 5
+process: 200 / 451. Epoch 5
+process: 250 / 451. Epoch 5
+process: 300 / 451. Epoch 5
+process: 350 / 451. Epoch 5
+process: 400 / 451. Epoch 5
+process: 450 / 451. Epoch 5
+process: 451 / 451. Epoch 5
+Loss of epoch 5 = 68.33071040049889
+process: 50 / 451. Epoch 6
+process: 100 / 451. Epoch 6
+process: 150 / 451. Epoch 6
+process: 200 / 451. Epoch 6
+process: 250 / 451. Epoch 6
+process: 300 / 451. Epoch 6
+process: 350 / 451. Epoch 6
+process: 400 / 451. Epoch 6
+process: 450 / 451. Epoch 6
+process: 451 / 451. Epoch 6
+Loss of epoch 6 = 58.947304600886916
+process: 50 / 451. Epoch 7
+process: 100 / 451. Epoch 7
+process: 150 / 451. Epoch 7
+process: 200 / 451. Epoch 7
+process: 250 / 451. Epoch 7
+process: 300 / 451. Epoch 7
+process: 350 / 451. Epoch 7
+process: 400 / 451. Epoch 7
+process: 450 / 451. Epoch 7
+process: 451 / 451. Epoch 7
+Loss of epoch 7 = 51.121059104767184
+process: 50 / 451. Epoch 8
+process: 100 / 451. Epoch 8
+process: 150 / 451. Epoch 8
+process: 200 / 451. Epoch 8
+process: 250 / 451. Epoch 8
+process: 300 / 451. Epoch 8
+process: 350 / 451. Epoch 8
+process: 400 / 451. Epoch 8
+process: 450 / 451. Epoch 8
+process: 451 / 451. Epoch 8
+Loss of epoch 8 = 45.41880023558758
+process: 50 / 451. Epoch 9
+process: 100 / 451. Epoch 9
+process: 150 / 451. Epoch 9
+process: 200 / 451. Epoch 9
+process: 250 / 451. Epoch 9
+process: 300 / 451. Epoch 9
+process: 350 / 451. Epoch 9
+process: 400 / 451. Epoch 9
+process: 450 / 451. Epoch 9
+process: 451 / 451. Epoch 9
+Loss of epoch 9 = 40.76689821230599
+process: 50 / 451. Epoch 10
+process: 100 / 451. Epoch 10
+process: 150 / 451. Epoch 10
+process: 200 / 451. Epoch 10
+process: 250 / 451. Epoch 10
+process: 300 / 451. Epoch 10
+process: 350 / 451. Epoch 10
+process: 400 / 451. Epoch 10
+process: 450 / 451. Epoch 10
+process: 451 / 451. Epoch 10
+Loss of epoch 10 = 36.44785459395787
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-10. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+Loaded ranking test queries. Number of (h,r,?t) queries: 5372
+The mean of prediced scores: 0.397925
+   epoch  training_loss
+5      6      58.947305
+6      7      51.121059
+7      8      45.418800
+8      9      40.766898
+9     10      36.447855
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+0         10  0.007995  0.157303       0.39878   0.394911
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6  Acc_0.7
+0       10.0  0.513812  0.798165  ...  0.883893  0.959615  0.96582
+
+[1 rows x 13 columns]
+process: 50 / 451. Epoch 11
+process: 100 / 451. Epoch 11
+process: 150 / 451. Epoch 11
+process: 200 / 451. Epoch 11
+process: 250 / 451. Epoch 11
+process: 300 / 451. Epoch 11
+process: 350 / 451. Epoch 11
+process: 400 / 451. Epoch 11
+process: 450 / 451. Epoch 11
+process: 451 / 451. Epoch 11
+Loss of epoch 11 = 32.672078540742795
+process: 50 / 451. Epoch 12
+process: 100 / 451. Epoch 12
+process: 150 / 451. Epoch 12
+process: 200 / 451. Epoch 12
+process: 250 / 451. Epoch 12
+process: 300 / 451. Epoch 12
+process: 350 / 451. Epoch 12
+process: 400 / 451. Epoch 12
+process: 450 / 451. Epoch 12
+process: 451 / 451. Epoch 12
+Loss of epoch 12 = 29.579541123891353
+process: 50 / 451. Epoch 13
+process: 100 / 451. Epoch 13
+process: 150 / 451. Epoch 13
+process: 200 / 451. Epoch 13
+process: 250 / 451. Epoch 13
+process: 300 / 451. Epoch 13
+process: 350 / 451. Epoch 13
+process: 400 / 451. Epoch 13
+process: 450 / 451. Epoch 13
+process: 451 / 451. Epoch 13
+Loss of epoch 13 = 27.233634458148558
+process: 50 / 451. Epoch 14
+process: 100 / 451. Epoch 14
+process: 150 / 451. Epoch 14
+process: 200 / 451. Epoch 14
+process: 250 / 451. Epoch 14
+process: 300 / 451. Epoch 14
+process: 350 / 451. Epoch 14
+process: 400 / 451. Epoch 14
+process: 450 / 451. Epoch 14
+process: 451 / 451. Epoch 14
+Loss of epoch 14 = 25.362337167405766
+process: 50 / 451. Epoch 15
+process: 100 / 451. Epoch 15
+process: 150 / 451. Epoch 15
+process: 200 / 451. Epoch 15
+process: 250 / 451. Epoch 15
+process: 300 / 451. Epoch 15
+process: 350 / 451. Epoch 15
+process: 400 / 451. Epoch 15
+process: 450 / 451. Epoch 15
+process: 451 / 451. Epoch 15
+Loss of epoch 15 = 24.027837444567627
+process: 50 / 451. Epoch 16
+process: 100 / 451. Epoch 16
+process: 150 / 451. Epoch 16
+process: 200 / 451. Epoch 16
+process: 250 / 451. Epoch 16
+process: 300 / 451. Epoch 16
+process: 350 / 451. Epoch 16
+process: 400 / 451. Epoch 16
+process: 450 / 451. Epoch 16
+process: 451 / 451. Epoch 16
+Loss of epoch 16 = 22.76783363359202
+process: 50 / 451. Epoch 17
+process: 100 / 451. Epoch 17
+process: 150 / 451. Epoch 17
+process: 200 / 451. Epoch 17
+process: 250 / 451. Epoch 17
+process: 300 / 451. Epoch 17
+process: 350 / 451. Epoch 17
+process: 400 / 451. Epoch 17
+process: 450 / 451. Epoch 17
+process: 451 / 451. Epoch 17
+Loss of epoch 17 = 21.664850679046562
+process: 50 / 451. Epoch 18
+process: 100 / 451. Epoch 18
+process: 150 / 451. Epoch 18
+process: 200 / 451. Epoch 18
+process: 250 / 451. Epoch 18
+process: 300 / 451. Epoch 18
+process: 350 / 451. Epoch 18
+process: 400 / 451. Epoch 18
+process: 450 / 451. Epoch 18
+process: 451 / 451. Epoch 18
+Loss of epoch 18 = 20.623142149390244
+process: 50 / 451. Epoch 19
+process: 100 / 451. Epoch 19
+process: 150 / 451. Epoch 19
+process: 200 / 451. Epoch 19
+process: 250 / 451. Epoch 19
+process: 300 / 451. Epoch 19
+process: 350 / 451. Epoch 19
+process: 400 / 451. Epoch 19
+process: 450 / 451. Epoch 19
+process: 451 / 451. Epoch 19
+Loss of epoch 19 = 19.830905279933482
+process: 50 / 451. Epoch 20
+process: 100 / 451. Epoch 20
+process: 150 / 451. Epoch 20
+process: 200 / 451. Epoch 20
+process: 250 / 451. Epoch 20
+process: 300 / 451. Epoch 20
+process: 350 / 451. Epoch 20
+process: 400 / 451. Epoch 20
+process: 450 / 451. Epoch 20
+process: 451 / 451. Epoch 20
+Loss of epoch 20 = 18.990442246396896
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-20. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.421833
+    epoch  training_loss
+15     16      22.767834
+16     17      21.664851
+17     18      20.623142
+18     19      19.830905
+19     20      18.990442
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+0         10  0.007995  0.157303       0.39878   0.394911
+1         20  0.004580  0.142215       0.42259   0.419285
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6  Acc_0.7
+0       10.0  0.513812  0.798165  ...  0.883893  0.959615  0.96582
+1       20.0  0.452297  0.718760  ...  0.852027  0.949571  0.98149
+
+[2 rows x 13 columns]
+process: 50 / 451. Epoch 21
+process: 100 / 451. Epoch 21
+process: 150 / 451. Epoch 21
+process: 200 / 451. Epoch 21
+process: 250 / 451. Epoch 21
+process: 300 / 451. Epoch 21
+process: 350 / 451. Epoch 21
+process: 400 / 451. Epoch 21
+process: 450 / 451. Epoch 21
+process: 451 / 451. Epoch 21
+Loss of epoch 21 = 18.363852896341463
+process: 50 / 451. Epoch 22
+process: 100 / 451. Epoch 22
+process: 150 / 451. Epoch 22
+process: 200 / 451. Epoch 22
+process: 250 / 451. Epoch 22
+process: 300 / 451. Epoch 22
+process: 350 / 451. Epoch 22
+process: 400 / 451. Epoch 22
+process: 450 / 451. Epoch 22
+process: 451 / 451. Epoch 22
+Loss of epoch 22 = 17.668867360726164
+process: 50 / 451. Epoch 23
+process: 100 / 451. Epoch 23
+process: 150 / 451. Epoch 23
+process: 200 / 451. Epoch 23
+process: 250 / 451. Epoch 23
+process: 300 / 451. Epoch 23
+process: 350 / 451. Epoch 23
+process: 400 / 451. Epoch 23
+process: 450 / 451. Epoch 23
+process: 451 / 451. Epoch 23
+Loss of epoch 23 = 17.160707325734478
+process: 50 / 451. Epoch 24
+process: 100 / 451. Epoch 24
+process: 150 / 451. Epoch 24
+process: 200 / 451. Epoch 24
+process: 250 / 451. Epoch 24
+process: 300 / 451. Epoch 24
+process: 350 / 451. Epoch 24
+process: 400 / 451. Epoch 24
+process: 450 / 451. Epoch 24
+process: 451 / 451. Epoch 24
+Loss of epoch 24 = 16.606241771757205
+process: 50 / 451. Epoch 25
+process: 100 / 451. Epoch 25
+process: 150 / 451. Epoch 25
+process: 200 / 451. Epoch 25
+process: 250 / 451. Epoch 25
+process: 300 / 451. Epoch 25
+process: 350 / 451. Epoch 25
+process: 400 / 451. Epoch 25
+process: 450 / 451. Epoch 25
+process: 451 / 451. Epoch 25
+Loss of epoch 25 = 16.207493547325388
+process: 50 / 451. Epoch 26
+process: 100 / 451. Epoch 26
+process: 150 / 451. Epoch 26
+process: 200 / 451. Epoch 26
+process: 250 / 451. Epoch 26
+process: 300 / 451. Epoch 26
+process: 350 / 451. Epoch 26
+process: 400 / 451. Epoch 26
+process: 450 / 451. Epoch 26
+process: 451 / 451. Epoch 26
+Loss of epoch 26 = 15.818418921493903
+process: 50 / 451. Epoch 27
+process: 100 / 451. Epoch 27
+process: 150 / 451. Epoch 27
+process: 200 / 451. Epoch 27
+process: 250 / 451. Epoch 27
+process: 300 / 451. Epoch 27
+process: 350 / 451. Epoch 27
+process: 400 / 451. Epoch 27
+process: 450 / 451. Epoch 27
+process: 451 / 451. Epoch 27
+Loss of epoch 27 = 15.397335348531042
+process: 50 / 451. Epoch 28
+process: 100 / 451. Epoch 28
+process: 150 / 451. Epoch 28
+process: 200 / 451. Epoch 28
+process: 250 / 451. Epoch 28
+process: 300 / 451. Epoch 28
+process: 350 / 451. Epoch 28
+process: 400 / 451. Epoch 28
+process: 450 / 451. Epoch 28
+process: 451 / 451. Epoch 28
+Loss of epoch 28 = 15.002241113497783
+process: 50 / 451. Epoch 29
+process: 100 / 451. Epoch 29
+process: 150 / 451. Epoch 29
+process: 200 / 451. Epoch 29
+process: 250 / 451. Epoch 29
+process: 300 / 451. Epoch 29
+process: 350 / 451. Epoch 29
+process: 400 / 451. Epoch 29
+process: 450 / 451. Epoch 29
+process: 451 / 451. Epoch 29
+Loss of epoch 29 = 14.651815410199557
+process: 50 / 451. Epoch 30
+process: 100 / 451. Epoch 30
+process: 150 / 451. Epoch 30
+process: 200 / 451. Epoch 30
+process: 250 / 451. Epoch 30
+process: 300 / 451. Epoch 30
+process: 350 / 451. Epoch 30
+process: 400 / 451. Epoch 30
+process: 450 / 451. Epoch 30
+process: 451 / 451. Epoch 30
+Loss of epoch 30 = 14.40637775429601
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-30. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.412091
+    epoch  training_loss
+25     26      15.818419
+26     27      15.397335
+27     28      15.002241
+28     29      14.651815
+29     30      14.406378
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+0         10  0.007995  0.157303      0.398780   0.394911
+1         20  0.004580  0.142215      0.422590   0.419285
+2         30  0.003527  0.119265      0.443175   0.440545
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+0       10.0  0.513812  0.798165  ...  0.883893  0.959615  0.965820
+1       20.0  0.452297  0.718760  ...  0.852027  0.949571  0.981490
+2       30.0  0.471729  0.773952  ...  0.863017  0.962087  0.986644
+
+[3 rows x 13 columns]
+process: 50 / 451. Epoch 31
+process: 100 / 451. Epoch 31
+process: 150 / 451. Epoch 31
+process: 200 / 451. Epoch 31
+process: 250 / 451. Epoch 31
+process: 300 / 451. Epoch 31
+process: 350 / 451. Epoch 31
+process: 400 / 451. Epoch 31
+process: 450 / 451. Epoch 31
+process: 451 / 451. Epoch 31
+Loss of epoch 31 = 14.053576687222838
+process: 50 / 451. Epoch 32
+process: 100 / 451. Epoch 32
+process: 150 / 451. Epoch 32
+process: 200 / 451. Epoch 32
+process: 250 / 451. Epoch 32
+process: 300 / 451. Epoch 32
+process: 350 / 451. Epoch 32
+process: 400 / 451. Epoch 32
+process: 450 / 451. Epoch 32
+process: 451 / 451. Epoch 32
+Loss of epoch 32 = 13.828021064301552
+process: 50 / 451. Epoch 33
+process: 100 / 451. Epoch 33
+process: 150 / 451. Epoch 33
+process: 200 / 451. Epoch 33
+process: 250 / 451. Epoch 33
+process: 300 / 451. Epoch 33
+process: 350 / 451. Epoch 33
+process: 400 / 451. Epoch 33
+process: 450 / 451. Epoch 33
+process: 451 / 451. Epoch 33
+Loss of epoch 33 = 13.660955255681818
+process: 50 / 451. Epoch 34
+process: 100 / 451. Epoch 34
+process: 150 / 451. Epoch 34
+process: 200 / 451. Epoch 34
+process: 250 / 451. Epoch 34
+process: 300 / 451. Epoch 34
+process: 350 / 451. Epoch 34
+process: 400 / 451. Epoch 34
+process: 450 / 451. Epoch 34
+process: 451 / 451. Epoch 34
+Loss of epoch 34 = 13.34921961613082
+process: 50 / 451. Epoch 35
+process: 100 / 451. Epoch 35
+process: 150 / 451. Epoch 35
+process: 200 / 451. Epoch 35
+process: 250 / 451. Epoch 35
+process: 300 / 451. Epoch 35
+process: 350 / 451. Epoch 35
+process: 400 / 451. Epoch 35
+process: 450 / 451. Epoch 35
+process: 451 / 451. Epoch 35
+Loss of epoch 35 = 13.284702613982816
+process: 50 / 451. Epoch 36
+process: 100 / 451. Epoch 36
+process: 150 / 451. Epoch 36
+process: 200 / 451. Epoch 36
+process: 250 / 451. Epoch 36
+process: 300 / 451. Epoch 36
+process: 350 / 451. Epoch 36
+process: 400 / 451. Epoch 36
+process: 450 / 451. Epoch 36
+process: 451 / 451. Epoch 36
+Loss of epoch 36 = 13.058176924542684
+process: 50 / 451. Epoch 37
+process: 100 / 451. Epoch 37
+process: 150 / 451. Epoch 37
+process: 200 / 451. Epoch 37
+process: 250 / 451. Epoch 37
+process: 300 / 451. Epoch 37
+process: 350 / 451. Epoch 37
+process: 400 / 451. Epoch 37
+process: 450 / 451. Epoch 37
+process: 451 / 451. Epoch 37
+Loss of epoch 37 = 12.915446143985587
+process: 50 / 451. Epoch 38
+process: 100 / 451. Epoch 38
+process: 150 / 451. Epoch 38
+process: 200 / 451. Epoch 38
+process: 250 / 451. Epoch 38
+process: 300 / 451. Epoch 38
+process: 350 / 451. Epoch 38
+process: 400 / 451. Epoch 38
+process: 450 / 451. Epoch 38
+process: 451 / 451. Epoch 38
+Loss of epoch 38 = 12.71223886155765
+process: 50 / 451. Epoch 39
+process: 100 / 451. Epoch 39
+process: 150 / 451. Epoch 39
+process: 200 / 451. Epoch 39
+process: 250 / 451. Epoch 39
+process: 300 / 451. Epoch 39
+process: 350 / 451. Epoch 39
+process: 400 / 451. Epoch 39
+process: 450 / 451. Epoch 39
+process: 451 / 451. Epoch 39
+Loss of epoch 39 = 12.623266655695677
+process: 50 / 451. Epoch 40
+process: 100 / 451. Epoch 40
+process: 150 / 451. Epoch 40
+process: 200 / 451. Epoch 40
+process: 250 / 451. Epoch 40
+process: 300 / 451. Epoch 40
+process: 350 / 451. Epoch 40
+process: 400 / 451. Epoch 40
+process: 450 / 451. Epoch 40
+process: 451 / 451. Epoch 40
+Loss of epoch 40 = 12.503738437153547
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-40. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.414043
+    epoch  training_loss
+35     36      13.058177
+36     37      12.915446
+37     38      12.712239
+38     39      12.623267
+39     40      12.503738
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+0         10  0.007995  0.157303      0.398780   0.394911
+1         20  0.004580  0.142215      0.422590   0.419285
+2         30  0.003527  0.119265      0.443175   0.440545
+3         40  0.003186  0.108201      0.459179   0.456954
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+0       10.0  0.513812  0.798165  ...  0.883893  0.959615  0.965820
+1       20.0  0.452297  0.718760  ...  0.852027  0.949571  0.981490
+2       30.0  0.471729  0.773952  ...  0.863017  0.962087  0.986644
+3       40.0  0.466438  0.770448  ...  0.860073  0.962087  0.987906
+
+[4 rows x 13 columns]
+process: 50 / 451. Epoch 41
+process: 100 / 451. Epoch 41
+process: 150 / 451. Epoch 41
+process: 200 / 451. Epoch 41
+process: 250 / 451. Epoch 41
+process: 300 / 451. Epoch 41
+process: 350 / 451. Epoch 41
+process: 400 / 451. Epoch 41
+process: 450 / 451. Epoch 41
+process: 451 / 451. Epoch 41
+Loss of epoch 41 = 12.368042804185144
+process: 50 / 451. Epoch 42
+process: 100 / 451. Epoch 42
+process: 150 / 451. Epoch 42
+process: 200 / 451. Epoch 42
+process: 250 / 451. Epoch 42
+process: 300 / 451. Epoch 42
+process: 350 / 451. Epoch 42
+process: 400 / 451. Epoch 42
+process: 450 / 451. Epoch 42
+process: 451 / 451. Epoch 42
+Loss of epoch 42 = 12.242905305917406
+process: 50 / 451. Epoch 43
+process: 100 / 451. Epoch 43
+process: 150 / 451. Epoch 43
+process: 200 / 451. Epoch 43
+process: 250 / 451. Epoch 43
+process: 300 / 451. Epoch 43
+process: 350 / 451. Epoch 43
+process: 400 / 451. Epoch 43
+process: 450 / 451. Epoch 43
+process: 451 / 451. Epoch 43
+Loss of epoch 43 = 12.17150905972838
+process: 50 / 451. Epoch 44
+process: 100 / 451. Epoch 44
+process: 150 / 451. Epoch 44
+process: 200 / 451. Epoch 44
+process: 250 / 451. Epoch 44
+process: 300 / 451. Epoch 44
+process: 350 / 451. Epoch 44
+process: 400 / 451. Epoch 44
+process: 450 / 451. Epoch 44
+process: 451 / 451. Epoch 44
+Loss of epoch 44 = 12.117107382899112
+process: 50 / 451. Epoch 45
+process: 100 / 451. Epoch 45
+process: 150 / 451. Epoch 45
+process: 200 / 451. Epoch 45
+process: 250 / 451. Epoch 45
+process: 300 / 451. Epoch 45
+process: 350 / 451. Epoch 45
+process: 400 / 451. Epoch 45
+process: 450 / 451. Epoch 45
+process: 451 / 451. Epoch 45
+Loss of epoch 45 = 11.941200543930155
+process: 50 / 451. Epoch 46
+process: 100 / 451. Epoch 46
+process: 150 / 451. Epoch 46
+process: 200 / 451. Epoch 46
+process: 250 / 451. Epoch 46
+process: 300 / 451. Epoch 46
+process: 350 / 451. Epoch 46
+process: 400 / 451. Epoch 46
+process: 450 / 451. Epoch 46
+process: 451 / 451. Epoch 46
+Loss of epoch 46 = 11.892578125
+process: 50 / 451. Epoch 47
+process: 100 / 451. Epoch 47
+process: 150 / 451. Epoch 47
+process: 200 / 451. Epoch 47
+process: 250 / 451. Epoch 47
+process: 300 / 451. Epoch 47
+process: 350 / 451. Epoch 47
+process: 400 / 451. Epoch 47
+process: 450 / 451. Epoch 47
+process: 451 / 451. Epoch 47
+Loss of epoch 47 = 11.78794194325111
+process: 50 / 451. Epoch 48
+process: 100 / 451. Epoch 48
+process: 150 / 451. Epoch 48
+process: 200 / 451. Epoch 48
+process: 250 / 451. Epoch 48
+process: 300 / 451. Epoch 48
+process: 350 / 451. Epoch 48
+process: 400 / 451. Epoch 48
+process: 450 / 451. Epoch 48
+process: 451 / 451. Epoch 48
+Loss of epoch 48 = 11.71591883488082
+process: 50 / 451. Epoch 49
+process: 100 / 451. Epoch 49
+process: 150 / 451. Epoch 49
+process: 200 / 451. Epoch 49
+process: 250 / 451. Epoch 49
+process: 300 / 451. Epoch 49
+process: 350 / 451. Epoch 49
+process: 400 / 451. Epoch 49
+process: 450 / 451. Epoch 49
+process: 451 / 451. Epoch 49
+Loss of epoch 49 = 11.611107261640798
+process: 50 / 451. Epoch 50
+process: 100 / 451. Epoch 50
+process: 150 / 451. Epoch 50
+process: 200 / 451. Epoch 50
+process: 250 / 451. Epoch 50
+process: 300 / 451. Epoch 50
+process: 350 / 451. Epoch 50
+process: 400 / 451. Epoch 50
+process: 450 / 451. Epoch 50
+process: 451 / 451. Epoch 50
+Loss of epoch 50 = 11.621894921008868
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-50. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.416795
+    epoch  training_loss
+45     46      11.892578
+46     47      11.787942
+47     48      11.715919
+48     49      11.611107
+49     50      11.621895
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+0         10  0.007995  0.157303      0.398780   0.394911
+1         20  0.004580  0.142215      0.422590   0.419285
+2         30  0.003527  0.119265      0.443175   0.440545
+3         40  0.003186  0.108201      0.459179   0.456954
+4         50  0.002968  0.102644      0.468203   0.466220
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+0       10.0  0.513812  0.798165  ...  0.883893  0.959615  0.965820
+1       20.0  0.452297  0.718760  ...  0.852027  0.949571  0.981490
+2       30.0  0.471729  0.773952  ...  0.863017  0.962087  0.986644
+3       40.0  0.466438  0.770448  ...  0.860073  0.962087  0.987906
+4       50.0  0.464243  0.757195  ...  0.858863  0.959352  0.989746
+
+[5 rows x 13 columns]
+process: 50 / 451. Epoch 51
+process: 100 / 451. Epoch 51
+process: 150 / 451. Epoch 51
+process: 200 / 451. Epoch 51
+process: 250 / 451. Epoch 51
+process: 300 / 451. Epoch 51
+process: 350 / 451. Epoch 51
+process: 400 / 451. Epoch 51
+process: 450 / 451. Epoch 51
+process: 451 / 451. Epoch 51
+Loss of epoch 51 = 11.4933297100194
+process: 50 / 451. Epoch 52
+process: 100 / 451. Epoch 52
+process: 150 / 451. Epoch 52
+process: 200 / 451. Epoch 52
+process: 250 / 451. Epoch 52
+process: 300 / 451. Epoch 52
+process: 350 / 451. Epoch 52
+process: 400 / 451. Epoch 52
+process: 450 / 451. Epoch 52
+process: 451 / 451. Epoch 52
+Loss of epoch 52 = 11.48851727064856
+process: 50 / 451. Epoch 53
+process: 100 / 451. Epoch 53
+process: 150 / 451. Epoch 53
+process: 200 / 451. Epoch 53
+process: 250 / 451. Epoch 53
+process: 300 / 451. Epoch 53
+process: 350 / 451. Epoch 53
+process: 400 / 451. Epoch 53
+process: 450 / 451. Epoch 53
+process: 451 / 451. Epoch 53
+Loss of epoch 53 = 11.370394349362527
+process: 50 / 451. Epoch 54
+process: 100 / 451. Epoch 54
+process: 150 / 451. Epoch 54
+process: 200 / 451. Epoch 54
+process: 250 / 451. Epoch 54
+process: 300 / 451. Epoch 54
+process: 350 / 451. Epoch 54
+process: 400 / 451. Epoch 54
+process: 450 / 451. Epoch 54
+process: 451 / 451. Epoch 54
+Loss of epoch 54 = 11.352297628533814
+process: 50 / 451. Epoch 55
+process: 100 / 451. Epoch 55
+process: 150 / 451. Epoch 55
+process: 200 / 451. Epoch 55
+process: 250 / 451. Epoch 55
+process: 300 / 451. Epoch 55
+process: 350 / 451. Epoch 55
+process: 400 / 451. Epoch 55
+process: 450 / 451. Epoch 55
+process: 451 / 451. Epoch 55
+Loss of epoch 55 = 11.299089046909645
+process: 50 / 451. Epoch 56
+process: 100 / 451. Epoch 56
+process: 150 / 451. Epoch 56
+process: 200 / 451. Epoch 56
+process: 250 / 451. Epoch 56
+process: 300 / 451. Epoch 56
+process: 350 / 451. Epoch 56
+process: 400 / 451. Epoch 56
+process: 450 / 451. Epoch 56
+process: 451 / 451. Epoch 56
+Loss of epoch 56 = 11.23471928700111
+process: 50 / 451. Epoch 57
+process: 100 / 451. Epoch 57
+process: 150 / 451. Epoch 57
+process: 200 / 451. Epoch 57
+process: 250 / 451. Epoch 57
+process: 300 / 451. Epoch 57
+process: 350 / 451. Epoch 57
+process: 400 / 451. Epoch 57
+process: 450 / 451. Epoch 57
+process: 451 / 451. Epoch 57
+Loss of epoch 57 = 11.169207317073171
+process: 50 / 451. Epoch 58
+process: 100 / 451. Epoch 58
+process: 150 / 451. Epoch 58
+process: 200 / 451. Epoch 58
+process: 250 / 451. Epoch 58
+process: 300 / 451. Epoch 58
+process: 350 / 451. Epoch 58
+process: 400 / 451. Epoch 58
+process: 450 / 451. Epoch 58
+process: 451 / 451. Epoch 58
+Loss of epoch 58 = 11.160760376247229
+process: 50 / 451. Epoch 59
+process: 100 / 451. Epoch 59
+process: 150 / 451. Epoch 59
+process: 200 / 451. Epoch 59
+process: 250 / 451. Epoch 59
+process: 300 / 451. Epoch 59
+process: 350 / 451. Epoch 59
+process: 400 / 451. Epoch 59
+process: 450 / 451. Epoch 59
+process: 451 / 451. Epoch 59
+Loss of epoch 59 = 11.123010064440132
+process: 50 / 451. Epoch 60
+process: 100 / 451. Epoch 60
+process: 150 / 451. Epoch 60
+process: 200 / 451. Epoch 60
+process: 250 / 451. Epoch 60
+process: 300 / 451. Epoch 60
+process: 350 / 451. Epoch 60
+process: 400 / 451. Epoch 60
+process: 450 / 451. Epoch 60
+process: 451 / 451. Epoch 60
+Loss of epoch 60 = 11.03163759354213
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-60. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.414638
+    epoch  training_loss
+55     56      11.234719
+56     57      11.169207
+57     58      11.160760
+58     59      11.123010
+59     60      11.031638
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+1         20  0.004580  0.142215      0.422590   0.419285
+2         30  0.003527  0.119265      0.443175   0.440545
+3         40  0.003186  0.108201      0.459179   0.456954
+4         50  0.002968  0.102644      0.468203   0.466220
+5         60  0.002871  0.095758      0.476446   0.474606
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+1       20.0  0.452297  0.718760  ...  0.852027  0.949571  0.981490
+2       30.0  0.471729  0.773952  ...  0.863017  0.962087  0.986644
+3       40.0  0.466438  0.770448  ...  0.860073  0.962087  0.987906
+4       50.0  0.464243  0.757195  ...  0.858863  0.959352  0.989746
+5       60.0  0.469061  0.767917  ...  0.861545  0.961718  0.991008
+
+[5 rows x 13 columns]
+process: 50 / 451. Epoch 61
+process: 100 / 451. Epoch 61
+process: 150 / 451. Epoch 61
+process: 200 / 451. Epoch 61
+process: 250 / 451. Epoch 61
+process: 300 / 451. Epoch 61
+process: 350 / 451. Epoch 61
+process: 400 / 451. Epoch 61
+process: 450 / 451. Epoch 61
+process: 451 / 451. Epoch 61
+Loss of epoch 61 = 10.982798641906873
+process: 50 / 451. Epoch 62
+process: 100 / 451. Epoch 62
+process: 150 / 451. Epoch 62
+process: 200 / 451. Epoch 62
+process: 250 / 451. Epoch 62
+process: 300 / 451. Epoch 62
+process: 350 / 451. Epoch 62
+process: 400 / 451. Epoch 62
+process: 450 / 451. Epoch 62
+process: 451 / 451. Epoch 62
+Loss of epoch 62 = 10.967236436391353
+process: 50 / 451. Epoch 63
+process: 100 / 451. Epoch 63
+process: 150 / 451. Epoch 63
+process: 200 / 451. Epoch 63
+process: 250 / 451. Epoch 63
+process: 300 / 451. Epoch 63
+process: 350 / 451. Epoch 63
+process: 400 / 451. Epoch 63
+process: 450 / 451. Epoch 63
+process: 451 / 451. Epoch 63
+Loss of epoch 63 = 10.958129070814856
+process: 50 / 451. Epoch 64
+process: 100 / 451. Epoch 64
+process: 150 / 451. Epoch 64
+process: 200 / 451. Epoch 64
+process: 250 / 451. Epoch 64
+process: 300 / 451. Epoch 64
+process: 350 / 451. Epoch 64
+process: 400 / 451. Epoch 64
+process: 450 / 451. Epoch 64
+process: 451 / 451. Epoch 64
+Loss of epoch 64 = 10.893526538248336
+process: 50 / 451. Epoch 65
+process: 100 / 451. Epoch 65
+process: 150 / 451. Epoch 65
+process: 200 / 451. Epoch 65
+process: 250 / 451. Epoch 65
+process: 300 / 451. Epoch 65
+process: 350 / 451. Epoch 65
+process: 400 / 451. Epoch 65
+process: 450 / 451. Epoch 65
+process: 451 / 451. Epoch 65
+Loss of epoch 65 = 10.877700162832594
+process: 50 / 451. Epoch 66
+process: 100 / 451. Epoch 66
+process: 150 / 451. Epoch 66
+process: 200 / 451. Epoch 66
+process: 250 / 451. Epoch 66
+process: 300 / 451. Epoch 66
+process: 350 / 451. Epoch 66
+process: 400 / 451. Epoch 66
+process: 450 / 451. Epoch 66
+process: 451 / 451. Epoch 66
+Loss of epoch 66 = 10.82241503256652
+process: 50 / 451. Epoch 67
+process: 100 / 451. Epoch 67
+process: 150 / 451. Epoch 67
+process: 200 / 451. Epoch 67
+process: 250 / 451. Epoch 67
+process: 300 / 451. Epoch 67
+process: 350 / 451. Epoch 67
+process: 400 / 451. Epoch 67
+process: 450 / 451. Epoch 67
+process: 451 / 451. Epoch 67
+Loss of epoch 67 = 10.787635549473393
+process: 50 / 451. Epoch 68
+process: 100 / 451. Epoch 68
+process: 150 / 451. Epoch 68
+process: 200 / 451. Epoch 68
+process: 250 / 451. Epoch 68
+process: 300 / 451. Epoch 68
+process: 350 / 451. Epoch 68
+process: 400 / 451. Epoch 68
+process: 450 / 451. Epoch 68
+process: 451 / 451. Epoch 68
+Loss of epoch 68 = 10.818588899667406
+process: 50 / 451. Epoch 69
+process: 100 / 451. Epoch 69
+process: 150 / 451. Epoch 69
+process: 200 / 451. Epoch 69
+process: 250 / 451. Epoch 69
+process: 300 / 451. Epoch 69
+process: 350 / 451. Epoch 69
+process: 400 / 451. Epoch 69
+process: 450 / 451. Epoch 69
+process: 451 / 451. Epoch 69
+Loss of epoch 69 = 10.785615299334811
+process: 50 / 451. Epoch 70
+process: 100 / 451. Epoch 70
+process: 150 / 451. Epoch 70
+process: 200 / 451. Epoch 70
+process: 250 / 451. Epoch 70
+process: 300 / 451. Epoch 70
+process: 350 / 451. Epoch 70
+process: 400 / 451. Epoch 70
+process: 450 / 451. Epoch 70
+process: 451 / 451. Epoch 70
+Loss of epoch 70 = 10.66694888095898
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-70. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.412756
+    epoch  training_loss
+65     66      10.822415
+66     67      10.787636
+67     68      10.818589
+68     69      10.785615
+69     70      10.666949
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+2         30  0.003527  0.119265      0.443175   0.440545
+3         40  0.003186  0.108201      0.459179   0.456954
+4         50  0.002968  0.102644      0.468203   0.466220
+5         60  0.002871  0.095758      0.476446   0.474606
+6         70  0.002809  0.091447      0.480991   0.479158
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+2       30.0  0.471729  0.773952  ...  0.863017  0.962087  0.986644
+3       40.0  0.466438  0.770448  ...  0.860073  0.962087  0.987906
+4       50.0  0.464243  0.757195  ...  0.858863  0.959352  0.989746
+5       60.0  0.469061  0.767917  ...  0.861545  0.961718  0.991008
+6       70.0  0.469226  0.788874  ...  0.861650  0.965505  0.990482
+
+[5 rows x 13 columns]
+process: 50 / 451. Epoch 71
+process: 100 / 451. Epoch 71
+process: 150 / 451. Epoch 71
+process: 200 / 451. Epoch 71
+process: 250 / 451. Epoch 71
+process: 300 / 451. Epoch 71
+process: 350 / 451. Epoch 71
+process: 400 / 451. Epoch 71
+process: 450 / 451. Epoch 71
+process: 451 / 451. Epoch 71
+Loss of epoch 71 = 10.66808892565133
+process: 50 / 451. Epoch 72
+process: 100 / 451. Epoch 72
+process: 150 / 451. Epoch 72
+process: 200 / 451. Epoch 72
+process: 250 / 451. Epoch 72
+process: 300 / 451. Epoch 72
+process: 350 / 451. Epoch 72
+process: 400 / 451. Epoch 72
+process: 450 / 451. Epoch 72
+process: 451 / 451. Epoch 72
+Loss of epoch 72 = 10.660209300512749
+process: 50 / 451. Epoch 73
+process: 100 / 451. Epoch 73
+process: 150 / 451. Epoch 73
+process: 200 / 451. Epoch 73
+process: 250 / 451. Epoch 73
+process: 300 / 451. Epoch 73
+process: 350 / 451. Epoch 73
+process: 400 / 451. Epoch 73
+process: 450 / 451. Epoch 73
+process: 451 / 451. Epoch 73
+Loss of epoch 73 = 10.597036966463415
+process: 50 / 451. Epoch 74
+process: 100 / 451. Epoch 74
+process: 150 / 451. Epoch 74
+process: 200 / 451. Epoch 74
+process: 250 / 451. Epoch 74
+process: 300 / 451. Epoch 74
+process: 350 / 451. Epoch 74
+process: 400 / 451. Epoch 74
+process: 450 / 451. Epoch 74
+process: 451 / 451. Epoch 74
+Loss of epoch 74 = 10.597766681679602
+process: 50 / 451. Epoch 75
+process: 100 / 451. Epoch 75
+process: 150 / 451. Epoch 75
+process: 200 / 451. Epoch 75
+process: 250 / 451. Epoch 75
+process: 300 / 451. Epoch 75
+process: 350 / 451. Epoch 75
+process: 400 / 451. Epoch 75
+process: 450 / 451. Epoch 75
+process: 451 / 451. Epoch 75
+Loss of epoch 75 = 10.555202847838137
+process: 50 / 451. Epoch 76
+process: 100 / 451. Epoch 76
+process: 150 / 451. Epoch 76
+process: 200 / 451. Epoch 76
+process: 250 / 451. Epoch 76
+process: 300 / 451. Epoch 76
+process: 350 / 451. Epoch 76
+process: 400 / 451. Epoch 76
+process: 450 / 451. Epoch 76
+process: 451 / 451. Epoch 76
+Loss of epoch 76 = 10.540688660615299
+process: 50 / 451. Epoch 77
+process: 100 / 451. Epoch 77
+process: 150 / 451. Epoch 77
+process: 200 / 451. Epoch 77
+process: 250 / 451. Epoch 77
+process: 300 / 451. Epoch 77
+process: 350 / 451. Epoch 77
+process: 400 / 451. Epoch 77
+process: 450 / 451. Epoch 77
+process: 451 / 451. Epoch 77
+Loss of epoch 77 = 10.559415491615853
+process: 50 / 451. Epoch 78
+process: 100 / 451. Epoch 78
+process: 150 / 451. Epoch 78
+process: 200 / 451. Epoch 78
+process: 250 / 451. Epoch 78
+process: 300 / 451. Epoch 78
+process: 350 / 451. Epoch 78
+process: 400 / 451. Epoch 78
+process: 450 / 451. Epoch 78
+process: 451 / 451. Epoch 78
+Loss of epoch 78 = 10.480159108231707
+process: 50 / 451. Epoch 79
+process: 100 / 451. Epoch 79
+process: 150 / 451. Epoch 79
+process: 200 / 451. Epoch 79
+process: 250 / 451. Epoch 79
+process: 300 / 451. Epoch 79
+process: 350 / 451. Epoch 79
+process: 400 / 451. Epoch 79
+process: 450 / 451. Epoch 79
+process: 451 / 451. Epoch 79
+Loss of epoch 79 = 10.45320944775499
+process: 50 / 451. Epoch 80
+process: 100 / 451. Epoch 80
+process: 150 / 451. Epoch 80
+process: 200 / 451. Epoch 80
+process: 250 / 451. Epoch 80
+process: 300 / 451. Epoch 80
+process: 350 / 451. Epoch 80
+process: 400 / 451. Epoch 80
+process: 450 / 451. Epoch 80
+process: 451 / 451. Epoch 80
+Loss of epoch 80 = 10.510616598531042
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-80. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.412077
+    epoch  training_loss
+75     76      10.540689
+76     77      10.559415
+77     78      10.480159
+78     79      10.453209
+79     80      10.510617
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+3         40  0.003186  0.108201      0.459179   0.456954
+4         50  0.002968  0.102644      0.468203   0.466220
+5         60  0.002871  0.095758      0.476446   0.474606
+6         70  0.002809  0.091447      0.480991   0.479158
+7         80  0.002780  0.088012      0.488382   0.486769
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+3       40.0  0.466438  0.770448  ...  0.860073  0.962087  0.987906
+4       50.0  0.464243  0.757195  ...  0.858863  0.959352  0.989746
+5       60.0  0.469061  0.767917  ...  0.861545  0.961718  0.991008
+6       70.0  0.469226  0.788874  ...  0.861650  0.965505  0.990482
+7       80.0  0.470672  0.773081  ...  0.862439  0.962507  0.991166
+
+[5 rows x 13 columns]
+process: 50 / 451. Epoch 81
+process: 100 / 451. Epoch 81
+process: 150 / 451. Epoch 81
+process: 200 / 451. Epoch 81
+process: 250 / 451. Epoch 81
+process: 300 / 451. Epoch 81
+process: 350 / 451. Epoch 81
+process: 400 / 451. Epoch 81
+process: 450 / 451. Epoch 81
+process: 451 / 451. Epoch 81
+Loss of epoch 81 = 10.451179453644679
+process: 50 / 451. Epoch 82
+process: 100 / 451. Epoch 82
+process: 150 / 451. Epoch 82
+process: 200 / 451. Epoch 82
+process: 250 / 451. Epoch 82
+process: 300 / 451. Epoch 82
+process: 350 / 451. Epoch 82
+process: 400 / 451. Epoch 82
+process: 450 / 451. Epoch 82
+process: 451 / 451. Epoch 82
+Loss of epoch 82 = 10.355751325180155
+process: 50 / 451. Epoch 83
+process: 100 / 451. Epoch 83
+process: 150 / 451. Epoch 83
+process: 200 / 451. Epoch 83
+process: 250 / 451. Epoch 83
+process: 300 / 451. Epoch 83
+process: 350 / 451. Epoch 83
+process: 400 / 451. Epoch 83
+process: 450 / 451. Epoch 83
+process: 451 / 451. Epoch 83
+Loss of epoch 83 = 10.36833728866408
+process: 50 / 451. Epoch 84
+process: 100 / 451. Epoch 84
+process: 150 / 451. Epoch 84
+process: 200 / 451. Epoch 84
+process: 250 / 451. Epoch 84
+process: 300 / 451. Epoch 84
+process: 350 / 451. Epoch 84
+process: 400 / 451. Epoch 84
+process: 450 / 451. Epoch 84
+process: 451 / 451. Epoch 84
+Loss of epoch 84 = 10.341192748752771
+process: 50 / 451. Epoch 85
+process: 100 / 451. Epoch 85
+process: 150 / 451. Epoch 85
+process: 200 / 451. Epoch 85
+process: 250 / 451. Epoch 85
+process: 300 / 451. Epoch 85
+process: 350 / 451. Epoch 85
+process: 400 / 451. Epoch 85
+process: 450 / 451. Epoch 85
+process: 451 / 451. Epoch 85
+Loss of epoch 85 = 10.364057519747783
+process: 50 / 451. Epoch 86
+process: 100 / 451. Epoch 86
+process: 150 / 451. Epoch 86
+process: 200 / 451. Epoch 86
+process: 250 / 451. Epoch 86
+process: 300 / 451. Epoch 86
+process: 350 / 451. Epoch 86
+process: 400 / 451. Epoch 86
+process: 450 / 451. Epoch 86
+process: 451 / 451. Epoch 86
+Loss of epoch 86 = 10.29995626039357
+process: 50 / 451. Epoch 87
+process: 100 / 451. Epoch 87
+process: 150 / 451. Epoch 87
+process: 200 / 451. Epoch 87
+process: 250 / 451. Epoch 87
+process: 300 / 451. Epoch 87
+process: 350 / 451. Epoch 87
+process: 400 / 451. Epoch 87
+process: 450 / 451. Epoch 87
+process: 451 / 451. Epoch 87
+Loss of epoch 87 = 10.309724050720622
+process: 50 / 451. Epoch 88
+process: 100 / 451. Epoch 88
+process: 150 / 451. Epoch 88
+process: 200 / 451. Epoch 88
+process: 250 / 451. Epoch 88
+process: 300 / 451. Epoch 88
+process: 350 / 451. Epoch 88
+process: 400 / 451. Epoch 88
+process: 450 / 451. Epoch 88
+process: 451 / 451. Epoch 88
+Loss of epoch 88 = 10.306276850055433
+process: 50 / 451. Epoch 89
+process: 100 / 451. Epoch 89
+process: 150 / 451. Epoch 89
+process: 200 / 451. Epoch 89
+process: 250 / 451. Epoch 89
+process: 300 / 451. Epoch 89
+process: 350 / 451. Epoch 89
+process: 400 / 451. Epoch 89
+process: 450 / 451. Epoch 89
+process: 451 / 451. Epoch 89
+Loss of epoch 89 = 10.253206849362527
+process: 50 / 451. Epoch 90
+process: 100 / 451. Epoch 90
+process: 150 / 451. Epoch 90
+process: 200 / 451. Epoch 90
+process: 250 / 451. Epoch 90
+process: 300 / 451. Epoch 90
+process: 350 / 451. Epoch 90
+process: 400 / 451. Epoch 90
+process: 450 / 451. Epoch 90
+process: 451 / 451. Epoch 90
+Loss of epoch 90 = 10.222554479628602
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-90. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.411576
+    epoch  training_loss
+85     86      10.299956
+86     87      10.309724
+87     88      10.306277
+88     89      10.253207
+89     90      10.222554
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+4         50  0.002968  0.102644      0.468203   0.466220
+5         60  0.002871  0.095758      0.476446   0.474606
+6         70  0.002809  0.091447      0.480991   0.479158
+7         80  0.002780  0.088012      0.488382   0.486769
+8         90  0.002761  0.084565      0.494261   0.492741
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+4       50.0  0.464243  0.757195  ...  0.858863  0.959352  0.989746
+5       60.0  0.469061  0.767917  ...  0.861545  0.961718  0.991008
+6       70.0  0.469226  0.788874  ...  0.861650  0.965505  0.990482
+7       80.0  0.470672  0.773081  ...  0.862439  0.962507  0.991166
+8       90.0  0.469533  0.793750  ...  0.861860  0.966556  0.991061
+
+[5 rows x 13 columns]
+process: 50 / 451. Epoch 91
+process: 100 / 451. Epoch 91
+process: 150 / 451. Epoch 91
+process: 200 / 451. Epoch 91
+process: 250 / 451. Epoch 91
+process: 300 / 451. Epoch 91
+process: 350 / 451. Epoch 91
+process: 400 / 451. Epoch 91
+process: 450 / 451. Epoch 91
+process: 451 / 451. Epoch 91
+Loss of epoch 91 = 10.207036663317627
+process: 50 / 451. Epoch 92
+process: 100 / 451. Epoch 92
+process: 150 / 451. Epoch 92
+process: 200 / 451. Epoch 92
+process: 250 / 451. Epoch 92
+process: 300 / 451. Epoch 92
+process: 350 / 451. Epoch 92
+process: 400 / 451. Epoch 92
+process: 450 / 451. Epoch 92
+process: 451 / 451. Epoch 92
+Loss of epoch 92 = 10.157709430432373
+process: 50 / 451. Epoch 93
+process: 100 / 451. Epoch 93
+process: 150 / 451. Epoch 93
+process: 200 / 451. Epoch 93
+process: 250 / 451. Epoch 93
+process: 300 / 451. Epoch 93
+process: 350 / 451. Epoch 93
+process: 400 / 451. Epoch 93
+process: 450 / 451. Epoch 93
+process: 451 / 451. Epoch 93
+Loss of epoch 93 = 10.198144747782704
+process: 50 / 451. Epoch 94
+process: 100 / 451. Epoch 94
+process: 150 / 451. Epoch 94
+process: 200 / 451. Epoch 94
+process: 250 / 451. Epoch 94
+process: 300 / 451. Epoch 94
+process: 350 / 451. Epoch 94
+process: 400 / 451. Epoch 94
+process: 450 / 451. Epoch 94
+process: 451 / 451. Epoch 94
+Loss of epoch 94 = 10.207628880266075
+process: 50 / 451. Epoch 95
+process: 100 / 451. Epoch 95
+process: 150 / 451. Epoch 95
+process: 200 / 451. Epoch 95
+process: 250 / 451. Epoch 95
+process: 300 / 451. Epoch 95
+process: 350 / 451. Epoch 95
+process: 400 / 451. Epoch 95
+process: 450 / 451. Epoch 95
+process: 451 / 451. Epoch 95
+Loss of epoch 95 = 10.19060291366408
+process: 50 / 451. Epoch 96
+process: 100 / 451. Epoch 96
+process: 150 / 451. Epoch 96
+process: 200 / 451. Epoch 96
+process: 250 / 451. Epoch 96
+process: 300 / 451. Epoch 96
+process: 350 / 451. Epoch 96
+process: 400 / 451. Epoch 96
+process: 450 / 451. Epoch 96
+process: 451 / 451. Epoch 96
+Loss of epoch 96 = 10.15794545108093
+process: 50 / 451. Epoch 97
+process: 100 / 451. Epoch 97
+process: 150 / 451. Epoch 97
+process: 200 / 451. Epoch 97
+process: 250 / 451. Epoch 97
+process: 300 / 451. Epoch 97
+process: 350 / 451. Epoch 97
+process: 400 / 451. Epoch 97
+process: 450 / 451. Epoch 97
+process: 451 / 451. Epoch 97
+Loss of epoch 97 = 10.122297671840355
+process: 50 / 451. Epoch 98
+process: 100 / 451. Epoch 98
+process: 150 / 451. Epoch 98
+process: 200 / 451. Epoch 98
+process: 250 / 451. Epoch 98
+process: 300 / 451. Epoch 98
+process: 350 / 451. Epoch 98
+process: 400 / 451. Epoch 98
+process: 450 / 451. Epoch 98
+process: 451 / 451. Epoch 98
+Loss of epoch 98 = 10.104243174889135
+process: 50 / 451. Epoch 99
+process: 100 / 451. Epoch 99
+process: 150 / 451. Epoch 99
+process: 200 / 451. Epoch 99
+process: 250 / 451. Epoch 99
+process: 300 / 451. Epoch 99
+process: 350 / 451. Epoch 99
+process: 400 / 451. Epoch 99
+process: 450 / 451. Epoch 99
+process: 451 / 451. Epoch 99
+Loss of epoch 99 = 10.089957429670177
+process: 50 / 451. Epoch 100
+process: 100 / 451. Epoch 100
+process: 150 / 451. Epoch 100
+process: 200 / 451. Epoch 100
+process: 250 / 451. Epoch 100
+process: 300 / 451. Epoch 100
+process: 350 / 451. Epoch 100
+process: 400 / 451. Epoch 100
+process: 450 / 451. Epoch 100
+process: 451 / 451. Epoch 100
+Loss of epoch 100 = 10.073677418237251
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-100. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.415299
+    epoch  training_loss
+95     96      10.157945
+96     97      10.122298
+97     98      10.104243
+98     99      10.089957
+99    100      10.073677
+   val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+5         60  0.002871  0.095758      0.476446   0.474606
+6         70  0.002809  0.091447      0.480991   0.479158
+7         80  0.002780  0.088012      0.488382   0.486769
+8         90  0.002761  0.084565      0.494261   0.492741
+9        100  0.002786  0.083514      0.496835   0.495297
+   val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+5       60.0  0.469061  0.767917  ...  0.861545  0.961718  0.991008
+6       70.0  0.469226  0.788874  ...  0.861650  0.965505  0.990482
+7       80.0  0.470672  0.773081  ...  0.862439  0.962507  0.991166
+8       90.0  0.469533  0.793750  ...  0.861860  0.966556  0.991061
+9      100.0  0.461461  0.767473  ...  0.857391  0.961298  0.991376
+
+[5 rows x 13 columns]
+process: 50 / 451. Epoch 101
+process: 100 / 451. Epoch 101
+process: 150 / 451. Epoch 101
+process: 200 / 451. Epoch 101
+process: 250 / 451. Epoch 101
+process: 300 / 451. Epoch 101
+process: 350 / 451. Epoch 101
+process: 400 / 451. Epoch 101
+process: 450 / 451. Epoch 101
+process: 451 / 451. Epoch 101
+Loss of epoch 101 = 10.038642426552107
+process: 50 / 451. Epoch 102
+process: 100 / 451. Epoch 102
+process: 150 / 451. Epoch 102
+process: 200 / 451. Epoch 102
+process: 250 / 451. Epoch 102
+process: 300 / 451. Epoch 102
+process: 350 / 451. Epoch 102
+process: 400 / 451. Epoch 102
+process: 450 / 451. Epoch 102
+process: 451 / 451. Epoch 102
+Loss of epoch 102 = 10.130518335989468
+process: 50 / 451. Epoch 103
+process: 100 / 451. Epoch 103
+process: 150 / 451. Epoch 103
+process: 200 / 451. Epoch 103
+process: 250 / 451. Epoch 103
+process: 300 / 451. Epoch 103
+process: 350 / 451. Epoch 103
+process: 400 / 451. Epoch 103
+process: 450 / 451. Epoch 103
+process: 451 / 451. Epoch 103
+Loss of epoch 103 = 10.068396185559868
+process: 50 / 451. Epoch 104
+process: 100 / 451. Epoch 104
+process: 150 / 451. Epoch 104
+process: 200 / 451. Epoch 104
+process: 250 / 451. Epoch 104
+process: 300 / 451. Epoch 104
+process: 350 / 451. Epoch 104
+process: 400 / 451. Epoch 104
+process: 450 / 451. Epoch 104
+process: 451 / 451. Epoch 104
+Loss of epoch 104 = 10.014220785407428
+process: 50 / 451. Epoch 105
+process: 100 / 451. Epoch 105
+process: 150 / 451. Epoch 105
+process: 200 / 451. Epoch 105
+process: 250 / 451. Epoch 105
+process: 300 / 451. Epoch 105
+process: 350 / 451. Epoch 105
+process: 400 / 451. Epoch 105
+process: 450 / 451. Epoch 105
+process: 451 / 451. Epoch 105
+Loss of epoch 105 = 9.967834066657428
+process: 50 / 451. Epoch 106
+process: 100 / 451. Epoch 106
+process: 150 / 451. Epoch 106
+process: 200 / 451. Epoch 106
+process: 250 / 451. Epoch 106
+process: 300 / 451. Epoch 106
+process: 350 / 451. Epoch 106
+process: 400 / 451. Epoch 106
+process: 450 / 451. Epoch 106
+process: 451 / 451. Epoch 106
+Loss of epoch 106 = 9.998149728034923
+process: 50 / 451. Epoch 107
+process: 100 / 451. Epoch 107
+process: 150 / 451. Epoch 107
+process: 200 / 451. Epoch 107
+process: 250 / 451. Epoch 107
+process: 300 / 451. Epoch 107
+process: 350 / 451. Epoch 107
+process: 400 / 451. Epoch 107
+process: 450 / 451. Epoch 107
+process: 451 / 451. Epoch 107
+Loss of epoch 107 = 9.983705913941241
+process: 50 / 451. Epoch 108
+process: 100 / 451. Epoch 108
+process: 150 / 451. Epoch 108
+process: 200 / 451. Epoch 108
+process: 250 / 451. Epoch 108
+process: 300 / 451. Epoch 108
+process: 350 / 451. Epoch 108
+process: 400 / 451. Epoch 108
+process: 450 / 451. Epoch 108
+process: 451 / 451. Epoch 108
+Loss of epoch 108 = 9.949441778686253
+process: 50 / 451. Epoch 109
+process: 100 / 451. Epoch 109
+process: 150 / 451. Epoch 109
+process: 200 / 451. Epoch 109
+process: 250 / 451. Epoch 109
+process: 300 / 451. Epoch 109
+process: 350 / 451. Epoch 109
+process: 400 / 451. Epoch 109
+process: 450 / 451. Epoch 109
+process: 451 / 451. Epoch 109
+Loss of epoch 109 = 9.968334257206209
+process: 50 / 451. Epoch 110
+process: 100 / 451. Epoch 110
+process: 150 / 451. Epoch 110
+process: 200 / 451. Epoch 110
+process: 250 / 451. Epoch 110
+process: 300 / 451. Epoch 110
+process: 350 / 451. Epoch 110
+process: 400 / 451. Epoch 110
+process: 450 / 451. Epoch 110
+process: 451 / 451. Epoch 110
+Loss of epoch 110 = 9.94137268743071
+VALIDATE AND SAVE MODELS:
+Model saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/model.bin-110. Data saved in file: train_model_d512_b512/ppi5k/DistMult_VAE_1001/data.bin
+The mean of prediced scores: 0.412576
+     epoch  training_loss
+105    106       9.998150
+106    107       9.983706
+107    108       9.949442
+108    109       9.968334
+109    110       9.941373
+    val_epoch       mse   mse_neg  ndcg(linear)  ndcg(exp)
+6          70  0.002809  0.091447      0.480991   0.479158
+7          80  0.002780  0.088012      0.488382   0.486769
+8          90  0.002761  0.084565      0.494261   0.492741
+9         100  0.002786  0.083514      0.496835   0.495297
+10        110  0.002725  0.080555      0.499889   0.498328
+    val_epoch     P_0.5     P_0.6  ...   Acc_0.5   Acc_0.6   Acc_0.7
+6        70.0  0.469226  0.788874  ...  0.861650  0.965505  0.990482
+7        80.0  0.470672  0.773081  ...  0.862439  0.962507  0.991166
+8        90.0  0.469533  0.793750  ...  0.861860  0.966556  0.991061
+9       100.0  0.461461  0.767473  ...  0.857391  0.961298  0.991376
+10      110.0  0.469894  0.781731  ...  0.862018  0.964190  0.991166
+
+[5 rows x 13 columns]
+process: 50 / 451. Epoch 111
+process: 100 / 451. Epoch 111
+process: 150 / 451. Epoch 111
+process: 200 / 451. Epoch 111
+process: 250 / 451. Epoch 111
+process: 300 / 451. Epoch 111
+process: 350 / 451. Epoch 111
+process: 400 / 451. Epoch 111
+process: 450 / 451. Epoch 111
+process: 451 / 451. Epoch 111
+Loss of epoch 111 = 9.911416470343681
+process: 50 / 451. Epoch 112
+process: 100 / 451. Epoch 112
+process: 150 / 451. Epoch 112
+process: 200 / 451. Epoch 112
+process: 250 / 451. Epoch 112
+process: 300 / 451. Epoch 112
+process: 350 / 451. Epoch 112
+process: 400 / 451. Epoch 112
+process: 450 / 451. Epoch 112
+process: 451 / 451. Epoch 112
+Loss of epoch 112 = 9.90759466809867
+process: 50 / 451. Epoch 113
+process: 100 / 451. Epoch 113
+process: 150 / 451. Epoch 113
+process: 200 / 451. Epoch 113
+process: 250 / 451. Epoch 113
+process: 300 / 451. Epoch 113
+process: 350 / 451. Epoch 113
+process: 400 / 451. Epoch 113
+process: 450 / 451. Epoch 113
+process: 451 / 451. Epoch 113
+Loss of epoch 113 = 9.90195615645787
+process: 50 / 451. Epoch 114
+process: 100 / 451. Epoch 114
+process: 150 / 451. Epoch 114
+process: 200 / 451. Epoch 114
+process: 250 / 451. Epoch 114
+process: 300 / 451. Epoch 114
+process: 350 / 451. Epoch 114
+process: 400 / 451. Epoch 114
+process: 450 / 451. Epoch 114
+process: 451 / 451. Epoch 114
+Loss of epoch 114 = 9.94348171597838
+process: 50 / 451. Epoch 115
+process: 100 / 451. Epoch 115
+process: 150 / 451. Epoch 115
+process: 200 / 451. Epoch 115
+process: 250 / 451. Epoch 115
+process: 300 / 451. Epoch 115
+process: 350 / 451. Epoch 115
+process: 400 / 451. Epoch 115
+process: 450 / 451. Epoch 115
+process: 451 / 451. Epoch 115
+Loss of epoch 115 = 9.869173104905766
+process: 50 / 451. Epoch 116
+process: 100 / 451. Epoch 116
+process: 150 / 451. Epoch 116
+process: 200 / 451. Epoch 116
+process: 250 / 451. Epoch 116
+process: 300 / 451. Epoch 116
+process: 350 / 451. Epoch 116
+process: 400 / 451. Epoch 116
+process: 450 / 451. Epoch 116
+process: 451 / 451. Epoch 116
+Loss of epoch 116 = 9.870859894678492
+process: 50 / 451. Epoch 117
+process: 100 / 451. Epoch 117
+process: 150 / 451. Epoch 117
+process: 200 / 451. Epoch 117
+process: 250 / 451. Epoch 117
+process: 300 / 451. Epoch 117
+process: 350 / 451. Epoch 117
+process: 400 / 451. Epoch 117
+process: 450 / 451. Epoch 117
+process: 451 / 451. Epoch 117
+Loss of epoch 117 = nan
+Nan loss. Training collapsed.
+Traceback (most recent call last):
+  File "./run/run.py", line 141, in <module>
+    data_dir=param.data_dir(), resume_model_path=param.resume_model_path)
+TypeError: 'NoneType' object is not iterable
